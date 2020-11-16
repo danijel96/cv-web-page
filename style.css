@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    background-color: #d9d9d9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper {
+    margin: 20px auto;
+    display: flex;
+    width: 900px;
+    min-width: 280px;
+}
+aside {
+    flex-basis: 35%;
+    background-color: #002266;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.profile, .contact, .referance {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact, .referance {
+    margin-top: 15px;
+}
+.linija {
+    height: 2px;
+    background: white;
+    /* flex-basis: 10px; */
+    flex-basis: 35%;
+}
+aside h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0 5px;
+}
+aside p {
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+}
+aside .fa {
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+.referance-1, .referance-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.referance-1 {
+    margin: 5px 0 30px;
+}
+.referance-1 p,
+.referance-2 p {
+    margin: 0 0 5px;
+}
+main {
+    flex-basis: 65%;
+    background: #fff;
+}
+.name {
+    background-color: #b3b3b3;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.name p {
+    color: #002266;
+    margin-top: 5px;
+}
+section {
+    padding: 25px 35px 15px 50px;
+    color: #002266;
+}
+.heading-dashed {
+    display: flex;
+    align-items: center;
+}
+.heading-dashed h2 {
+    text-transform: uppercase;
+}
+.lines {
+    border-bottom: 2px dashed #002266;
+    width: 100%;
+    margin-left: 5px;
+}
+.education-1 {
+    display: flex;
+    align-items: center;
+}
+.education-1 div {
+    margin: 0 auto 0 25px;
+}
+.education-1 .fa {
+    font-size: 25px;
+}
+.education-1 div p {
+    margin: 0 0 5px;
+}
+.education-2 {
+    margin-top: 15px;
+}
+.experience-details {
+    display: flex;
+}
+.experience-describe {
+    flex-basis: 80%;
+}
+.experience-describe p {
+    margin: 5px 0 10px;
+}
+.skill-lang-wrapper {
+    display: flex;
+}
+.skill-lang-left, .skill-lang-right {
+    flex-basis: 50%;
+}
+.skill-lang-line {
+    width: 70%;
+    height: 7px;
+    border: 2px solid #002266;
+}
+.fill-skill {
+    width: 50%;
+    height: 9px;
+    background-color: #002266;
+    margin: -1px 0px 0px -1px;
+}
+.fill-skill.html {
+    width: 90%;
+}
+.fill-lang {
+    width: 60%;
+    height: 9px;
+    background-color: #002266;
+    margin: -1px 0px 0px -1px;
+}
+.interest {
+    display: flex;
+    justify-content: space-around;
+}
+.interest .fa {
+    font-size: 25px;
+}
+/* Ukoliko zelimo da imamo opise ispod ikonica
+.travel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/

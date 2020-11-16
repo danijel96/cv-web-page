@@ -1,0 +1,60 @@
+@media screen and (max-width: 950px) {
+    #wrapper {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .name h1 {
+        text-align: center;
+    }
+    aside {
+        padding: 20px 25px;
+    }
+    aside img {
+        width: 180px;
+        height: 180px;
+    }
+    section {
+        padding: 2% 7% 5%;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .education-1 div {
+        margin-left: 15px;
+    }
+    .education-1 .fa {
+        font-size: 22px;
+    }
+    .years {
+        width: min-content;
+    }
+    .skill-lang-wrapper {
+        flex-direction: column;
+    }
+    .skill-lang-left, .skill-lang-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .interest .fa {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #wrapper {
+        width: 85%;
+        flex-direction: column;
+    }
+    .education-1 div {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #wrapper {
+        width: 90%;
+        flex-direction: column;
+    }
+}
